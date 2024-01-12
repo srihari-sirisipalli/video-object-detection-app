@@ -56,6 +56,10 @@ pip install -r requirements.txt
 python app.py
 ```
 
+
+![image](https://github.com/srihari-sirisipalli/video-object-detection-app/assets/67143581/75093f1a-f94d-4ac2-9e74-18727e24a105)
+
+
 ## Usage
 
 1. Click the "Select Video" button to choose a video file.
