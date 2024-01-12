@@ -57,7 +57,7 @@ python app.py
 ```
 
 
-![image][(https://github.com/srihari-sirisipalli/video-object-detection-app/assets/67143581/75093f1a-f94d-4ac2-9e74-18727e24a105](https://github.com/srihari-sirisipalli/video-object-detection-app/blob/main/Images/Screenshot%202024-01-12%20215656.png))
+![image](https://github.com/srihari-sirisipalli/video-object-detection-app/assets/67143581/d447072c-e352-4884-b2b3-9be0cd295b18)
 
 
 ## Usage
