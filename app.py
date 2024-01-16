@@ -102,7 +102,11 @@ class VideoSelectorApp:
         self.update_results_label()
 
     def update_results_label(self):
-        result_text = f"Detection Results: Total Objects: {len(self.objects)}, Unique Objects: {len(set(self.objects))}"
+        objects=self.objects
+        obj_dict=dict()
+        for ele in objects:
+            obj_dict[ele]=objects.count(ele)
+        result_text = f"Detection Results: Total Objects: {len(self.objects)}, Unique Objects: {len(set(self.objects))} \n {obj_dict}"
         self.results_label.config(text=result_text)
 
     def save_frame(self, frame, frame_type):
